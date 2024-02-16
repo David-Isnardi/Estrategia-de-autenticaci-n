@@ -1,7 +1,7 @@
 import passport from 'passport';
 import localStrategy from 'passport-local';
 import GithubStrategy from 'passport-github2';
-import UserModel from '../dao/GeneralModels/GeneralModels.js';
+import UserModel from '../dao/GeneralModels/user.model.js';
 import { hasAdminCredentials } from "../public/js/authMiddleware.js";
 import bcrypt from 'bcryptjs';
 
